@@ -36,3 +36,5 @@ predictions = model.predict(len(data), len(data) + 50)
 data["Views"].plot(legend=True, label="Training Data",
                    figsize=(15, 10))
 predictions.plot(legend=True, label="Predictions")
+
+plt.show()
